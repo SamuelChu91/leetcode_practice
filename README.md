@@ -7,7 +7,7 @@ Daily group coding practice with Data Structures and Algorithms
 3. Enhance git proficiency by imitating a proper git group project workflow
 4. Increase repertoire of coding languages. Initial problems will be done in Python
 
-### Awesome Contributors
+## Awesome Contributors
 1. Eric Chiu
   * Github - https://github.com/EricChiu920
   * LinkedIn - https://www.linkedin.com/in/eric-chiu-920/
