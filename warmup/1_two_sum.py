@@ -11,6 +11,8 @@
 # return [0, 1].
 
 # o(n^2) solution because might have to check through all of both arrays
+# throws error with input [3,2,4], 6
+# output is [0,0], expected output [1,2]
 
   def twoSum(self, nums, target):
     # for loop in python, replaced nums with a range going from
