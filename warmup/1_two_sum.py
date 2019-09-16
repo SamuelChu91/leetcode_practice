@@ -21,7 +21,14 @@
       # each input only has one solution and no repeat elements
       # so the second pair we check for has to be greater than the first
       # don't need to check for elements that we already passed over
-      second = first + 1
-      for second in range(0,len(nums)):
+      # second = first + 1
+      # gets overwritting with second for in loop
+      for second in range(first + 1,len(nums)):
         if (nums[first] + nums[second] == target):
           return [first, second]
+
+# faster time strat
+# iterate through nums passing the difference between
+# the 'num' and the target into a dictionary (python object equivalent)
+# during nums loop, if num is a key in the dictionary
+# you now have both indices of numbers that sum to target
